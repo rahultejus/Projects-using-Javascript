@@ -16,8 +16,6 @@ buttons.forEach(function(button) {
        if(e.target.id =='black'){
         heading3.style.color='white';
         heading1.style.color='white';
-        
-
        }
     })
 });
