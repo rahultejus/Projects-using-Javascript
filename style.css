@@ -42,11 +42,11 @@
     background-color: #151414;
   }
   
-  h1 {
+  /* h1 {
     color: #eee;
     font-weight: bold;
     font-size: 1.5rem;
-  }
+  } */
   
   .projects {
     display: flex;

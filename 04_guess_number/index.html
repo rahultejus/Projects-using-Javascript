@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css ">
+   <!-- <link rel="stylesheet" href="../style.css "> -->
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a target="_blank" href="https://Github.com/rahultejus"
+          >GitHub</a
+        >
+      </nav>
+      <div id="wrapper">
+        <h1>Number Guessing Game</h1>
+         <p>Try and Guess a random number between <strong>0</strong> to <strong>100</strong>.</p>   
+          <p>You have <strong>10 attempts</strong>  to Guess the Right Number.</p>  
+
+        <form class="form">
+            <label2 for="guessField" id="guess">Guess a Number</label>
+                <br/>
+            <input type="text" id="guessField" class="guessField">
+            <p>
+               <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
+            </p>
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guesses:<span class="guesses"></span> </p>        
+            <p>Guesses Remaining:<span class="lastResult"></span> </p> 
+            <p class="lowOrHi"></p>
+        </div>  
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
